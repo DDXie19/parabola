@@ -16,7 +16,7 @@ module parabola()
   color("gold") curve(); // 金黄色的树叶
 }
 
-for (n = [0 : 18]) // 一共循环18次
+for (n = [0 : 18]) // 一共循环19次
 {
   translate([0, 0, n * 1]) // 每次上移1mm
   rotate([0, 0, n * 10]) // 每次旋转10°
